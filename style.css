@@ -672,3 +672,28 @@ header:hover .owl-next {
     right: 0px;
     opacity: 1;
 }
+
+@media only screen and (max-width: 768px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: #f8f9fa;
+        padding: 2px 33px;
+        font-size: 20px;
+    }
+    .navbar-light .navbar-nav .active>.nav-link,
+    .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .nav-link.show,
+    .navbar-light .navbar-nav .show>.nav-link {
+        color: rgb(221 54 65);
+        font-size: 23px;
+    }
+    .city-img {
+        display: none;
+    }
+    .card-sec {
+        background-color: #f8f7f6;
+        margin-top: 857px;
+    }
+    section.card-sec .card {
+        width: 25rem;
+    }
+}
